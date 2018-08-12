@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittext1"
+        android:hint="username"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittext2"
+        android:hint="email id"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/edittext1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittext3"
+        android:hint="password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/edittext2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittext4"
+        android:hint="confirm password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/edittext3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/registerbtn"
+        android:text="Register"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/edittext4"
+        />
+
+</RelativeLayout>

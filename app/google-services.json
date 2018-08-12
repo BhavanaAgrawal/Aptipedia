@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509127944690",
+    "firebase_url": "https://aptipediasite.firebaseio.com",
+    "project_id": "aptipediasite",
+    "storage_bucket": "aptipediasite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509127944690:android:8cfebb52cf9f0b85",
+        "android_client_info": {
+          "package_name": "com.example.apti.aptipedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509127944690-4j1ci5t8pndr87vcpusj277mu1gadcbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apti.aptipedia",
+            "certificate_hash": "33129973c91572fe6caf4c5e32fcd418b7c1e9b1"
+          }
+        },
+        {
+          "client_id": "509127944690-bk6fcjtiedmaieoruet59g6t1ho74n07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDop8B5FTdC_iwMDO5dYlvi_6bXbpPTHSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509127944690-bk6fcjtiedmaieoruet59g6t1ho74n07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
